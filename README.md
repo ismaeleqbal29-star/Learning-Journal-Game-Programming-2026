@@ -1,2 +1,3 @@
-# Learning-Journal-Game-Programming-2026
-my programming journal
+# My Learning Journal
+## 27/10/2026
+First entry
