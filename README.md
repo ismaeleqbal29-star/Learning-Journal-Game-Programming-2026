@@ -6,3 +6,6 @@ While working on it in class, i ran into a small issue of the component not read
 
 ## 9/11/2026
 Today I tried to the `Dialogue System` we started with Paul last session, however, whilst following the video Paul sent, I had a strange error pop up complaining about the `IEnumerator`, the error specifically was saying that `The type or namespace name 'IEnumerator' could not be found (are you missing a using directive or an assembly reference?)` I don't know exactly what that means and it is getting quite late so I am going to ask Paul about it tomorrow and see if it can be fixed, everthing else was working, it was just when trying to implement a typing out feel to the text otherwise everything else was working.
+
+## 10/11/2026
+Today Paul helped me fix the error by just adding at the top of my script, `using System.Collections` which fixed the error, I thought I tried that yesterday but clearly not
