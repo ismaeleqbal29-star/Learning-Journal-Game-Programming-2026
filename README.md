@@ -17,3 +17,10 @@ Another thing i have realised is that I want to call two different functions and
 
 ### Problems Today
 Just to list down todays "problems", I am not able to change the time variables for the `InvokeRepeating` inside of unity, and I want to be able to call two functions and alternate between the two.
+
+## 17/11/2026
+Paul helped me solve the issue of not being able to change the variables within Unity, turns out I tried every way to do it but the correct way which was `public float timerStart;` when i did it, I added an extra name which wasn't needed, so now I am able to change the variables within Unity which is good.
+
+Then I asked Paul about whether or not I would need to alternate between functions for the day/night cycle and he suggested using a toggle so that instead of using two different functions, it works by toggling the function true then false and alternates, hopefully that will work as I need it to but I won't find out till later I suppose.
+
+I was also having issues with GitHub where it wasn't registering the changes I had made in the previous days, but I just copied over the assets folder from Unity to GitHub and I think it has fixed itself, don't really know, not very good at using GitHub.
