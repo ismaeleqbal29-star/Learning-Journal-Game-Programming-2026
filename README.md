@@ -23,4 +23,4 @@ Paul helped me solve the issue of not being able to change the variables within 
 
 Then I asked Paul about whether or not I would need to alternate between functions for the day/night cycle and he suggested using a toggle so that instead of using two different functions, it works by toggling the function true then false and alternates, hopefully that will work as I need it to but I won't find out till later I suppose.
 
-I was also having issues with GitHub where it wasn't registering the changes I had made in the previous days, but I just copied over the assets folder from Unity to GitHub and I think it has fixed itself, don't really know, not very good at using GitHub.
+I was also having issues with GitHub where it wasn't registering the changes I had made in the previous days, but I just copied over the assets folder from Unity to GitHub as Paul suggested and I think it has fixed itself, don't really know, not very good at using GitHub.
