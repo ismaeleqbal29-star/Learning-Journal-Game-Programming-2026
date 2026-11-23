@@ -34,6 +34,6 @@ Today I did some research on how to make my breakable blocks component, I want t
 I managed to get the breakable blocks working, I added some "blocks" into the scene with some balls that fall from above them and the blocks break on impact which is good, it means the breaking works, it took me some time to get the breaking working, the script works by using Unity Events and I was first triggering the wrong function which was annoying for a while and then I figured it out.
 
 I then tried to figure out how to make the toggling toggle-able, however I couldn't figure out how to do that, I tried using an `if` statement, but I don't think I fully understand how to use 'if' statements enough to get it to work. I then tried using AI to help me figure it out and it was giving some helpful solutions but I don't think it was what I was looking for, so I asked it to show what resources it had gotten it's answers from to see if I could try to understand it and be able to use that knowledge to figure it out, unfortunately that didn't really work out, I suspect it will be something with either an `if` statement or a `bool`, unfortunately I do not at this moment in time know, so that is an issue I need to work on for this component
-[x] blocks breaking on impact working
-[ ] need to figure out how to make them break only when specific conditions are met.
+- [x] blocks breaking on impact working
+- [ ] need to figure out how to make them break only when specific conditions are met.
 
