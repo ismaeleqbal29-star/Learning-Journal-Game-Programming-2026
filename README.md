@@ -37,3 +37,16 @@ I then tried to figure out how to make the toggling toggle-able, however I could
 - [x] blocks breaking on impact working
 - [ ] need to figure out how to make them break only when specific conditions are met.
 
+## 24/11/2026
+Today I sat down with Paul and he helped me make the blocks break only when the game thinks it is night, we did that by using Unity Events, similar to how I made the blocks break in the first place, we went back to the timer component and made it so that when each time of day is triggered, it activates a Unity Event, which I need to add in the documentation for that. Inside of the `BreakableBlocks` script I added a `bool` which dictates whether or not it is day and if day equals false, meaning night, the blocks will break.
+
+Now this script technically will work but it needs a timer to tell it whether or not it is day, for that, we created a test script that will drop two balls, one during the day so it won't break the blocks and one that drops at night so that the ball will break and in that test script, we had a `Coroutine` that waited for a set amount of time and then set the game to day and releases a ball, and then once the first ball has been released, it waits another set amount of time before setting the game to night and releases the second ball which breaks the block.
+
+To change between the two states of time, we added two Unity Events, one for day and one for night in the test script and then hooked everything together inside the `Inspector`, to do this I created an empty object called `TestBlocks` and attached the script to that and in the `Event System` there was two events, `onNight` and `onDay` and then hooked the blocks up to the events and in `onNight` I didn't tick the box to making it day and in the `onDay` event, ticked the box making it night.
+
+Whilst adding the Unity Events, it came up with an error and because this had happened to me before, I knew what was wrong, it was because I didn't put `using UnityEngine.Events` at the top which is something I check often when an error comes up, is the correct `using` at the top of the script, such as what happened today.
+
+This means that my checklist from last time is completed but I need to add another thing:
+- [x] blocks breaking on impact working
+- [x] need to figure out how to make them break only when specific conditions are met.
+- [ ] need to add Documentation explaining the script and need to update the documentation for the timer and make sure everything is organised accordingly.
